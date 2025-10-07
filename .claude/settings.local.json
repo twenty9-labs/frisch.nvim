@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.nordtheme.com)",
+      "WebFetch(domain:m4xshen.dev)",
+      "WebFetch(domain:github.com)",
+      "Bash(mkdir:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
