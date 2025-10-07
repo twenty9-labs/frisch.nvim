@@ -238,6 +238,22 @@ function M.setup(variant)
   hi("GitSignsAdd", { fg = colors.green })
   hi("GitSignsChange", { fg = colors.yellow })
   hi("GitSignsDelete", { fg = colors.red })
+
+  -- Mini.nvim plugin support
+  -- Mini.pick
+  hi("MiniPickBorder", { fg = colors.border })
+  hi("MiniPickBorderBusy", { fg = colors.yellow })
+  hi("MiniPickBorderText", { fg = colors.cyan })
+  hi("MiniPickIconDirectory", { fg = colors.blue })
+  hi("MiniPickIconFile", { fg = colors.fg })
+  hi("MiniPickHeader", { fg = colors.cyan, style = "bold" })
+  hi("MiniPickMatchCurrent", { bg = colors.bg_visual })
+  hi("MiniPickMatchMarked", { fg = colors.yellow })
+  hi("MiniPickMatchRanges", { fg = colors.cyan, style = "bold" })
+  hi("MiniPickNormal", { link = "NormalFloat" })
+  hi("MiniPickPreviewLine", { bg = colors.bg_visual })
+  hi("MiniPickPreviewRegion", { bg = colors.bg_highlight })
+  hi("MiniPickPrompt", { fg = colors.cyan })
 end
 
 return M
